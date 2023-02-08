@@ -21,5 +21,8 @@ libc = "0.2.1"
 #freetype-sys = "0.17.0"
 freetype-sys = {git="https://github.com/runtiva/freetype-sys.git", branch = "master"} 
 [dev-dependencies]
-
 unicode-normalization = "0.1.0"
+
+
+#[patch."https://github.com/runtiva/freetype-sys.git"]
+#freetype-sys = { path = "..\\freetype-sys" }
